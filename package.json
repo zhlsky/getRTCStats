@@ -1,0 +1,32 @@
+{
+  "name": "get-rtc-stats",
+  "description": "A tiny library for WebRTC getStats API.",
+  "version": "1.0.0",
+  "author": "zhlsky",
+  "bugs": {
+    "url": "https://github.com/zhlsky/getRTCStats/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "homepage": "https://github.com/zhlsky/getRTCStats#readme",
+  "keywords": [
+    "getStats",
+    "wWebRTC"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhlsky/getRTCStats.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "clean": "rimraf dist/*",
+    "fixpack": "fixpack"
+  },
+  "dependencies": {}
+}
